@@ -19,7 +19,7 @@ const events: EventType[] = [
     name: "Wedding Functions",
     capacity: "150 to 500 Guests",
     description: "Exchange vows in a setting of grand luxury. Our team provides bespoke decorations, majestic stage designs, and customized buffet catering.",
-    image: "https://images.unsplash.com/photo-1519225495810-7517cbd1456a?q=80&w=800&auto=format&fit=crop",
+    image: "/images/event_wedding.jpg",
     amenities: ["Bespoke Floral Decor", "Bridal Dressing Suite", "Customized Royal Buffet", "Grand Stage Lighting"],
   },
   {
@@ -27,7 +27,7 @@ const events: EventType[] = [
     name: "Engagement Ceremonies",
     capacity: "100 to 350 Guests",
     description: "Celebrate your ring ceremony with sophisticated elegance. Premium floral arches, cozy guest lounges, and gourmet starter platters.",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop",
+    image: "/images/event_engagement.jpg",
     amenities: ["Ring Display Stage", "Floral Backdrops", "Mocktail Counters", "Ambience Music Setup"],
   },
   {
@@ -35,7 +35,7 @@ const events: EventType[] = [
     name: "Birthday Celebrations",
     capacity: "50 to 200 Guests",
     description: "From milestone first birthdays to grand silver anniversaries, enjoy lively theme decorations, cake setups, and fun-filled buffet packages.",
-    image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=800&auto=format&fit=crop",
+    image: "/images/event_birthday.jpg",
     amenities: ["Theme Styling", "Gourmet Dessert Display", "Kid Activity Zone Option", "High-End Sound Setup"],
   },
   {
@@ -43,7 +43,7 @@ const events: EventType[] = [
     name: "Corporate Events",
     capacity: "50 to 300 Guests",
     description: "Impress your delegates with state-of-the-art corporate facilities. Perfect for seminars, dealer meets, product launches, and gala dinners.",
-    image: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800&auto=format&fit=crop",
+    image: "/images/event_corporate.jpg",
     amenities: ["HD Laser Projectors", "Hi-Speed Wi-Fi & Mics", "Executive High-Tea Buffet", "Valet Parking Services"],
   },
   {
@@ -51,7 +51,7 @@ const events: EventType[] = [
     name: "Family Gatherings",
     capacity: "40 to 150 Guests",
     description: "Celebrate retirement, baby showers, or get-togethers in a cozy space. Warm hospitality, comfort seating, and custom-tailored menus.",
-    image: "https://images.unsplash.com/photo-1543007630-9710e4a00a20?q=80&w=800&auto=format&fit=crop",
+    image: "/images/event_family.jpg",
     amenities: ["Flexible Dining Layouts", "Kids Special Buffet", "Personal Event Host", "Welcoming Drinks"],
   },
 ];

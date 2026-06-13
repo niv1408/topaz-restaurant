@@ -20,7 +20,7 @@ const testimonials: Testimonial[] = [
     role: "Wedding Host",
     stars: 5,
     review: "The catering at Topaz was the absolute highlight of our wedding. Every guest praised the Dal Makhani and the Special Thalis. Their banquet management took care of everything seamlessly. Truly 5-star service!",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+    image: "/images/user_1.jpg",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const testimonials: Testimonial[] = [
     role: "Corporate Coordinator",
     stars: 5,
     review: "We hosted our annual dealer meet at their spacious banquet hall. The HD projector support, audio acoustics, and custom mocktails were outstanding. The feedback from our executives has been stellar.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+    image: "/images/user_2.jpg",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const testimonials: Testimonial[] = [
     role: "Regular Dining Guest",
     stars: 5,
     review: "Vegetarian dining at its absolute finest in Ahmedabad. The wild mushroom truffle risotto is sublime. Love the emerald green luxury decor and the professional service team.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+    image: "/images/user_3.jpg",
   },
 ];
 

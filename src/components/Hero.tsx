@@ -7,17 +7,17 @@ import { Calendar, ChevronDown, Utensils } from "lucide-react";
 // Curated high-resolution hospitality/fine-dining photography
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1920&auto=format&fit=crop",
+    image: "/images/hero_dining.jpg",
     title: "Culinary Artistry",
     subtitle: "Premium Vegetarian Fine Dining",
   },
   {
-    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1920&auto=format&fit=crop",
+    image: "/images/hero_banquet.jpg",
     title: "Grand Celebrations",
     subtitle: "Majestic Banquets & Event Spaces",
   },
   {
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1920&auto=format&fit=crop",
+    image: "/images/hero_ambience.jpg",
     title: "Refined Ambience",
     subtitle: "A Five-Star Hospitality Experience",
   },

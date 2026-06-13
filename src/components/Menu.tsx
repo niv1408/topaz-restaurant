@@ -22,7 +22,7 @@ const menuItems: MenuItem[] = [
     category: "North Indian",
     price: "₹420",
     description: "Clay oven roasted cottage cheese cubes cooked in a rich, buttery, spiced tomato gravy.",
-    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=500&auto=format&fit=crop",
+    image: "/images/paneer_tikka.jpg",
     tags: ["Spicy", "Chef Special"],
   },
   {
@@ -31,7 +31,7 @@ const menuItems: MenuItem[] = [
     category: "North Indian",
     price: "₹380",
     description: "Slow-cooked black lentils simmered overnight with fresh cream, butter, and authentic Indian spices.",
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=500&auto=format&fit=crop",
+    image: "/images/dal_makhani.jpg",
     tags: ["Best Seller", "Signature"],
   },
   // Chinese
@@ -41,7 +41,7 @@ const menuItems: MenuItem[] = [
     category: "Chinese",
     price: "₹360",
     description: "Golden fried vegetable dumplings tossed in a tangy soy-garlic gravy with fresh spring onions.",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=500&auto=format&fit=crop",
+    image: "/images/manchurian.jpg",
     tags: ["Spicy"],
   },
   {
@@ -50,7 +50,7 @@ const menuItems: MenuItem[] = [
     category: "Chinese",
     price: "₹390",
     description: "Wok-tossed cottage cheese cubes, bell peppers, onions, and green chilies in a spicy soy sauce.",
-    image: "https://images.unsplash.com/photo-1624462966581-bc6d768cbce5?q=80&w=500&auto=format&fit=crop",
+    image: "/images/chili_paneer.jpg",
     tags: ["Spicy", "Best Seller"],
   },
   // Italian
@@ -60,7 +60,7 @@ const menuItems: MenuItem[] = [
     category: "Italian",
     price: "₹490",
     description: "Arborio rice slow-cooked with fresh porcini mushrooms, finished with premium black truffle oil and parmesan.",
-    image: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?q=80&w=500&auto=format&fit=crop",
+    image: "/images/risotto.jpg",
     tags: ["Signature", "Gourmet"],
   },
   {
@@ -69,7 +69,7 @@ const menuItems: MenuItem[] = [
     category: "Italian",
     price: "₹450",
     description: "Classic sourdough pizza base topped with rich tomato sauce, fresh mozzarella, and sweet basil leaves.",
-    image: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?q=80&w=500&auto=format&fit=crop",
+    image: "/images/pizza.jpg",
     tags: ["Classic"],
   },
   // Continental
@@ -79,7 +79,7 @@ const menuItems: MenuItem[] = [
     category: "Continental",
     price: "₹480",
     description: "Layered pasta sheet with exotic seasonal vegetables, rich tomato marinara, and gooey bechamel bake.",
-    image: "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?q=80&w=500&auto=format&fit=crop",
+    image: "/images/lasagna.jpg",
     tags: ["Cheese-Lovers"],
   },
   {
@@ -88,7 +88,7 @@ const menuItems: MenuItem[] = [
     category: "Continental",
     price: "₹470",
     description: "Herb-marinated paneer steak served with garlic mashed potatoes, buttered veggies, and a rich pepper sauce.",
-    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=500&auto=format&fit=crop",
+    image: "/images/paneer_steak.jpg",
     tags: ["Healthy"],
   },
   // Special Thalis
@@ -98,7 +98,7 @@ const menuItems: MenuItem[] = [
     category: "Special Thalis",
     price: "₹550",
     description: "A grand royal feast featuring 3 gourmet curries, dal makhani, raita, saffron pulao, choice of Indian bread, dessert, and buttermilk.",
-    image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=500&auto=format&fit=crop",
+    image: "/images/royal_thali.jpg",
     tags: ["Royal Feast", "Signature"],
   },
   {
@@ -107,7 +107,7 @@ const menuItems: MenuItem[] = [
     category: "Special Thalis",
     price: "₹520",
     description: "Authentic Gujarati experience showcasing sweet-sour kadhi, traditional subzis, khichdi, rotlas, farsaans, and sweet basundi.",
-    image: "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?q=80&w=500&auto=format&fit=crop",
+    image: "/images/gujarati_thali.jpg",
     tags: ["Authentic"],
   },
   // Desserts
@@ -117,7 +117,7 @@ const menuItems: MenuItem[] = [
     category: "Desserts",
     price: "₹250",
     description: "Traditional Indian slow-churned condensed milk ice cream enriched with pure Kashmiri saffron and pistachios.",
-    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=500&auto=format&fit=crop",
+    image: "/images/kulfi.jpg",
     tags: ["Sweet", "Classic"],
   },
   {
@@ -126,7 +126,7 @@ const menuItems: MenuItem[] = [
     category: "Desserts",
     price: "₹290",
     description: "Decadent dark chocolate cake with a molten lava center, served with gourmet vanilla bean gelato.",
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=500&auto=format&fit=crop",
+    image: "/images/lava_cake.jpg",
     tags: ["Best Seller"],
   },
   // Beverages
@@ -136,7 +136,7 @@ const menuItems: MenuItem[] = [
     category: "Beverages",
     price: "₹210",
     description: "Refreshing blend of fresh mint, garden cucumbers, lime juice, and sparkling club soda.",
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=500&auto=format&fit=crop",
+    image: "/images/cucumber_cooler.jpg",
     tags: ["Cooling"],
   },
   {
@@ -145,7 +145,7 @@ const menuItems: MenuItem[] = [
     category: "Beverages",
     price: "₹230",
     description: "Thick creamy yogurt drink infused with sweet Alphonso mango pulp and topped with almond slivers.",
-    image: "https://images.unsplash.com/photo-1546173152-318e7240c7b6?q=80&w=500&auto=format&fit=crop",
+    image: "/images/mango_lassi.jpg",
     tags: ["Sweet", "Classic"],
   },
 ];

@@ -93,7 +93,7 @@ export default function About() {
           {/* Main big background image (fine dining) */}
           <div className="absolute w-[80%] h-[75%] top-0 left-0 rounded-2xl overflow-hidden shadow-2xl border border-stone-200/10">
             <img
-              src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=800&auto=format&fit=crop"
+              src="/images/about_ambience.jpg"
               alt="Topaz Luxury Dining Ambience"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               loading="lazy"
@@ -103,7 +103,7 @@ export default function About() {
           {/* Overlapping foreground image (plated food) */}
           <div className="absolute w-[60%] h-[55%] bottom-0 right-0 rounded-2xl overflow-hidden shadow-2xl border-4 border-stone-50 dark:border-stone-950">
             <img
-              src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?q=80&w=600&auto=format&fit=crop"
+              src="/images/about_food.jpg"
               alt="Gourmet Vegetarian Food Platter"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               loading="lazy"

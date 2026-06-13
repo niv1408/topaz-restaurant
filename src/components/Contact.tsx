@@ -146,15 +146,16 @@ export default function Contact() {
               Our Location
             </h3>
             {/* Custom styled map container */}
-            <div className="w-full h-52 rounded-2xl overflow-hidden border border-stone-800 shadow-lg relative">
+            <div className="w-full h-60 rounded-2xl overflow-hidden border border-stone-800 shadow-lg relative">
               <iframe
                 title="Topaz Restaurant Google Maps Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1d3671.6961129994627!2d72.55598687606775!3d23.024844316885315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f479e00001%3A0x633ea6476100cbcf!2sC%20G%20Road%20Ahmedabad!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.6961129994627!2d72.55598687606775!3d23.024844316885315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f479e00001%3A0x633ea6476100cbcf!2sC%20G%20Road%20Ahmedabad!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
-                style={{ border: 0, filter: "invert(90%) hue-rotate(180deg) grayscale(30%)" }}
-                allowFullScreen={false}
+                style={{ border: 0 }}
+                allowFullScreen
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
           </div>
