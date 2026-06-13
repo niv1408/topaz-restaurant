@@ -36,32 +36,28 @@ h1, h2, h3, h4, h5, h6, .font-serif {
 }
 
 /* Glassmorphism utility classes */
-.glass-gold-dark {
-  background: rgba(10, 43, 29, 0.7);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(212, 175, 55, 0.15);
-}
-
-.glass-gold-light {
-  background: rgba(250, 249, 246, 0.8);
+.glass-gold {
+  background: rgba(250, 249, 246, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(212, 175, 55, 0.2);
 }
 
-.glass-card-dark {
-  background: rgba(18, 18, 18, 0.6);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+.dark .glass-gold {
+  background: rgba(1, 43, 29, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.2);
 }
 
-.glass-card-light {
-  background: rgba(255, 255, 255, 0.6);
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dark .glass-card {
+  background: rgba(18, 18, 18, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /* Decorative utilities */

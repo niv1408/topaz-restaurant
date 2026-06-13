@@ -236,7 +236,7 @@ export default function Menu() {
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.4 }}
                 key={item.id}
-                className="group relative rounded-2xl overflow-hidden glass-card-light dark:glass-card-dark border border-stone-200/50 dark:border-stone-800/50 hover:border-amber-400/40 dark:hover:border-amber-400/40 hover:shadow-xl hover:shadow-black/5 transition-all duration-500 flex flex-col h-full"
+                className="group relative rounded-2xl overflow-hidden glass-card border border-stone-200/50 dark:border-stone-800/50 hover:border-amber-400/40 dark:hover:border-amber-400/40 hover:shadow-xl hover:shadow-black/5 transition-all duration-500 flex flex-col h-full"
               >
                 {/* Food Image Container with Hover zoom */}
                 <div className="relative h-64 w-full overflow-hidden">

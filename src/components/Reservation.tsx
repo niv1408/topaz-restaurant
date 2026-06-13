@@ -133,7 +133,7 @@ export default function Reservation() {
         </div>
 
         {/* Main Reservation Form */}
-        <div className="relative rounded-3xl p-8 sm:p-12 glass-gold-light dark:glass-gold-dark shadow-xl border border-amber-400/20 backdrop-blur-md">
+        <div className="relative rounded-3xl p-8 sm:p-12 glass-gold shadow-xl border border-amber-400/20 backdrop-blur-md">
           
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
